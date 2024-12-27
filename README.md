@@ -1,8 +1,8 @@
-This project focuses on building and training machine learning models to detect fraudulent transactions using a dataset of financial transaction records. It explores multiple neural network architectures and precision methods, including the ReLU activation function and bfloat16 precision, and analyzes their performance in terms of both accuracy and computational efficiency.
+This project is inspired by the paper <b>"A novel approach to increase scalability while training machine learning algorithms using Bfloat 16 in credit card fraud detection" by Bushra Yousuf, Rejwan Bin Sulaiman, and Musarrat Saberin Nipun</b>. <br>It focuses on building and training machine learning models to detect fraudulent transactions using a dataset of financial transaction records. It explores multiple neural network architectures and precision methods, including the ReLU activation function and bfloat16 precision, and analyzes their performance in terms of both accuracy and computational efficiency.
 
 ### Key Features
 #### Dataset:
-The dataset 'PS_20174392719_1491204439457_log.csv' contains transaction records with features like type, amount, oldbalanceOrg, newbalanceOrig, and labels for isFraud and isFlaggedFraud.
+The dataset <b>"PS_20174392719_1491204439457_log.csv"</b> contains transaction records with features like type, amount, oldbalanceOrg, newbalanceOrig, and labels for isFraud and isFlaggedFraud.
 #### Preprocessing:
 - Features are preprocessed using techniques such as scaling and encoding to prepare the data for modeling.
 - SMOTE is used to address class imbalance in the dataset.
