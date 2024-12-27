@@ -20,7 +20,7 @@ This project is inspired by the paper <b>"A novel approach to increase scalabili
 
 ### Key Features
 #### Dataset:
-The dataset <b>"PS_20174392719_1491204439457_log.csv"</b> from Kaggle contains transaction records with features like type, amount, oldbalanceOrg, newbalanceOrig, and labels for isFraud and isFlaggedFraud.
+The dataset <a href="https://www.kaggle.com/datasets/rupakroy/online-payments-fraud-detection-dataset"><b>PS_20174392719_1491204439457_log.csv</b></a> from Kaggle contains transaction records with features like type, amount, oldbalanceOrg, newbalanceOrig, and labels for isFraud and isFlaggedFraud.
 #### Preprocessing:
 - Features are preprocessed using techniques such as scaling and encoding to prepare the data for modeling.
 - SMOTE is used to address class imbalance in the dataset.
